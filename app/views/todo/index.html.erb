@@ -1,0 +1,46 @@
+<div ng-controller="TodoCtrl">
+  <h1>Todo#index {{hello}}</h1>
+  <p>Find me in app/views/todo/index.html.erb</p>
+  <h4>Total todos: {{totalTodos()}}</h4>
+  <div class="row">
+    <div class="span9">
+      <table class="table table-bordered">
+        <thead>
+        <tr>
+          <th>index</th>
+          <td>id</td>
+          <th>todo</th>
+          <td>updated_at</td>
+          <th>done?</th>
+          <th>delete</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="todo in todos">
+          <td>{{$index}}</td>
+          <td>{{todo.id}}</td>
+          <td>{{todo.text}}</td>
+          <td>{{formatDate(todo.updated_at)}}</td>
+          <td>
+            <button class="btn btn-small {{todoButton($index)}}" ng-click="todoDone(todo.id, $index)">
+              {{todo.done}}
+            </button>
+          </td>
+          <td>
+            <a href="" ng-click="deleteTodo(todo.id, $index)">
+              <i class="icon-remove"></i>
+            </a>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+  <form class="form-horizontal">
+    <input type="text" ng-model="textTodo" required="">
+    <button class="btn" ng-click="saveTodo()">Add</button>
+  </form>
+
+</div>
