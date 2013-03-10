@@ -9,7 +9,7 @@
     <file path="/todo_controller.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362900466697" ignored="false" />
     <file path="/todo.js" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362895124459" ignored="false" />
     <file path="/index.html.erb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362895154667" ignored="false" />
-    <file path="/Gemfile" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362883456452" ignored="false" />
+    <file path="/Gemfile" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362901056398" ignored="false" />
     <file path="$PROJECT_DIR$/../angular_to_do/app/controllers/index_controller.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362844745415" ignored="false" />
     <file path="/index_controller.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362844738977" ignored="false" />
     <file path="/application.js" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362850561257" ignored="false" />
@@ -74,19 +74,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_pk.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/create_pk.rb">
+      <file leaf-file-name="todo_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/todo_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="11" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+            <state line="20" column="27" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/todo_controller.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="27" selection-start="362" selection-end="362" vertical-scroll-proportion="0.34207526">
+            <state line="1" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.017103763">
               <folding />
             </state>
           </provider>
@@ -143,7 +143,6 @@
         <option value="$PROJECT_DIR$/config/unicorn.rb" />
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/procfile" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
         <option value="$PROJECT_DIR$/config/initializers/create_pk.rb" />
         <option value="$PROJECT_DIR$/app/views/todo/index.html.erb" />
@@ -154,6 +153,7 @@
         <option value="$PROJECT_DIR$/config/initializers/mongo.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/todo_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -799,13 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -899,7 +892,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/todo_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="362" selection-end="362" vertical-scroll-proportion="0.34207526">
+        <state line="20" column="27" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.017103763">
           <folding />
         </state>
       </provider>
