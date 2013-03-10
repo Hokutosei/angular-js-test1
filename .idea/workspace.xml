@@ -4,17 +4,24 @@
     <list default="true" id="135a9355-e195-4c9f-a646-d7c1779489af" name="Default" comment="" />
     <ignored path="test2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/routes.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362845587883" ignored="false" />
+    <file path="/routes.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362895182745" ignored="false" />
     <file path="/application.html.erb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362844409321" ignored="false" />
-    <file path="/todo_controller.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362846757140" ignored="false" />
-    <file path="/todo.js" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362852252605" ignored="false" />
-    <file path="/index.html.erb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362851819760" ignored="false" />
-    <file path="/Gemfile" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362854839746" ignored="false" />
+    <file path="/todo_controller.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362896976018" ignored="false" />
+    <file path="/todo.js" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362895124459" ignored="false" />
+    <file path="/index.html.erb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362895154667" ignored="false" />
+    <file path="/Gemfile" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362883456452" ignored="false" />
     <file path="$PROJECT_DIR$/../angular_to_do/app/controllers/index_controller.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362844745415" ignored="false" />
     <file path="/index_controller.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362844738977" ignored="false" />
     <file path="/application.js" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362850561257" ignored="false" />
     <file path="/unicorn.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362854438956" ignored="false" />
     <file path="/config.ru" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362855595946" ignored="false" />
+    <file path="/procfile" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362857783044" ignored="false" />
+    <file path="/application.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362883623592" ignored="false" />
+    <file path="/mongo.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362883312004" ignored="false" />
+    <file path="/development.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362883569721" ignored="false" />
+    <file path="/test.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362883615184" ignored="false" />
+    <file path="/todo.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362896824430" ignored="false" />
+    <file path="/create_pk.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362896737929" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,46 +38,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="14.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/todo/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="41" selection-start="709" selection-end="709" vertical-scroll-proportion="-15.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="9" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.ru" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.ru">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="53" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="procfile" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+            <state line="29" column="3" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,13 +56,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="7" column="32" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/todo.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="28" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_pk.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/create_pk.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="11" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/todo_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="71" selection-start="502" selection-end="502" vertical-scroll-proportion="0.39338654">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/todo/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="100" selection-start="777" selection-end="777" vertical-scroll-proportion="-15.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,25 +104,25 @@
       <file leaf-file-name="todo.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/todo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="72" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+            <state line="16" column="26" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/todo_controller.rb">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="22" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+            <state line="58" column="5" selection-start="2709" selection-end="2709" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="43" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,17 +138,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/todo_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/views/todo/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/todo.js" />
         <option value="$PROJECT_DIR$/config/unicorn.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/procfile" />
+        <option value="$PROJECT_DIR$/config/initializers/mongo.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/config/environments/test.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/todo.js" />
+        <option value="$PROJECT_DIR$/app/views/todo/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/create_pk.rb" />
+        <option value="$PROJECT_DIR$/app/models/todo.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/todo_controller.rb" />
       </list>
     </option>
   </component>
@@ -222,7 +232,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,8 +452,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="appearance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/initializers" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/initializers" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: test2">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -474,6 +540,26 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
@@ -706,338 +792,65 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180/bundler/gems/twitter-bootstrap-rails-29b7081e2fd5/vendor/assets/stylesheets/twitter-bootstrap-static/fontawesome.css.erb">
+    <entry file="file://$PROJECT_DIR$/procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1362820531000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180/bundler/gems/twitter-bootstrap-rails-29b7081e2fd5/vendor/assets/stylesheets/twitter-bootstrap-static/sprites.css.erb">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180/bundler/gems/twitter-bootstrap-rails-29b7081e2fd5/vendor/static-source/bootstrap.less">
+    <entry file="file://$PROJECT_DIR$/config/initializers/mongo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/todo.rb">
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="3" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/todo_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="22" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+        <state line="58" column="5" selection-start="2709" selection-end="2709" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="14.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/todo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="72" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/todo/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="41" selection-start="709" selection-end="709" vertical-scroll-proportion="-15.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180/bundler/gems/twitter-bootstrap-rails-29b7081e2fd5/vendor/static-source/fontawesome.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180/bundler/gems/twitter-bootstrap-rails-29b7081e2fd5/vendor/static-source/sprites.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="122" selection-start="426" selection-end="426" vertical-scroll-proportion="0.102622576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+        <state line="29" column="3" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1049,23 +862,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/todo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="9" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
+        <state line="16" column="26" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="53" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+        <state line="7" column="32" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/procfile">
+    <entry file="file://$PROJECT_DIR$/config/initializers/create_pk.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+        <state line="8" column="11" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todo/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="100" selection-start="777" selection-end="777" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/todo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="28" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/todo_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="71" selection-start="502" selection-end="502" vertical-scroll-proportion="0.39338654">
           <folding />
         </state>
       </provider>

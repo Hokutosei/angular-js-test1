@@ -13,12 +13,12 @@ class TodoController < ApplicationController
   end
 
   def delete_todo
-    @todo = Todo.delete(params[:id])
+    @todo = Todo.remove(:primary_key => BSON::ObjectId(params[:primary_key]))
     respond_with @todo
   end
 
   def todo_done
-    @todo = Todo.find_by_id(params[:id])
+    @todo = Todo.find_by_primary_key(BSON::ObjectId(params[:primary_key]))
     if @todo.done
       @todo.done = false
     else
@@ -26,5 +26,7 @@ class TodoController < ApplicationController
     end
     @todo.save
     respond_with @todo
+
+
   end
 end

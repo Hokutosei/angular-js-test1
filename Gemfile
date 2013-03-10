@@ -1,6 +1,14 @@
 source 'https://rubygems.org'
+require 'rubygems'
+require 'mongo'
+source 'http://gemcutter.org'
 
 gem 'rails', '3.2.11'
+
+gem 'mongo'
+gem 'bson_ext'
+gem 'mongo_mapper'
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -28,6 +36,7 @@ gem 'libv8'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 #gem 'unicorn'
+
 gem 'thin'
 
 # To use ActiveModel has_secure_password

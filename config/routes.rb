@@ -4,8 +4,8 @@ Test2::Application.routes.draw do
   resource :todo
 
   match '/save_todo' => 'todo#save_todo'
-  match '/delete_todo/:id' => 'todo#delete_todo'
-  match '/todo_done/:id' => 'todo#todo_done'
+  match '/delete_todo/:primary_key' => 'todo#delete_todo'
+  match '/todo_done/:primary_key' => 'todo#todo_done'
 
   get "todo/index"
 
