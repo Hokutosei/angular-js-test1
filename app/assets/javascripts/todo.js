@@ -14,6 +14,14 @@ function TodoCtrl ($scope, $http) {
 
     $scope.todoButton = function(index){
         return $scope.todos[index].done ? 'btn-success' : 'btn-warning';
+
+        if ($scope.todos[index].done == true) {
+            //$scope.todos[index].btnColor = 'btn-success';
+            return 'btn-success';
+        } else {
+            //$scope.todos[index].btnColor = 'btn-warning';
+        }
+
     };
 
     // index
@@ -31,14 +39,14 @@ function TodoCtrl ($scope, $http) {
             })
     };
     // delete todo
-    $scope.deleteTodo = function(primary_key, index) {
-        $http.delete('/delete_todo/' + primary_key).success(function(){
+    $scope.deleteTodo = function(id, index) {
+        $http.delete('/delete_todo/' + id).success(function(){
             $scope.todos.splice(index, 1);
         });
     };
     //update todo
-    $scope.todoDone = function(primary_key, index) {
-        $http.post('/todo_done/' + primary_key).success(function(data){
+    $scope.todoDone = function(id, index) {
+        $http.post('/todo_done/' + id).success(function(data){
             $scope.todoDoneStatus(index, data);
         });
     };

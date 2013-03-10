@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362895182745" ignored="false" />
     <file path="/application.html.erb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362844409321" ignored="false" />
-    <file path="/todo_controller.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362896976018" ignored="false" />
+    <file path="/todo_controller.rb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362900466697" ignored="false" />
     <file path="/todo.js" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362895124459" ignored="false" />
     <file path="/index.html.erb" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362895154667" ignored="false" />
     <file path="/Gemfile" changelist="135a9355-e195-4c9f-a646-d7c1779489af" time="1362883456452" ignored="false" />
@@ -41,16 +41,7 @@
       <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="3" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unicorn.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
+            <state line="29" column="78" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -59,7 +50,16 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="32" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+            <state line="6" column="25" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,7 +68,7 @@
       <file leaf-file-name="todo.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/todo.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+            <state line="7" column="35" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,7 +86,7 @@
       <file leaf-file-name="todo_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/todo_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="71" selection-start="502" selection-end="502" vertical-scroll-proportion="0.39338654">
+            <state line="20" column="27" selection-start="362" selection-end="362" vertical-scroll-proportion="0.34207526">
               <folding />
             </state>
           </provider>
@@ -95,7 +95,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/todo/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="100" selection-start="777" selection-end="777" vertical-scroll-proportion="-15.0">
+            <state line="27" column="74" selection-start="857" selection-end="857" vertical-scroll-proportion="-16.875">
               <folding />
             </state>
           </provider>
@@ -104,7 +104,7 @@
       <file leaf-file-name="todo.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/todo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="26" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+            <state line="15" column="72" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,16 +113,16 @@
       <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="5" selection-start="2709" selection-end="2709" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <file leaf-file-name="mongo.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/mongo.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="4" column="101" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,16 +143,16 @@
         <option value="$PROJECT_DIR$/config/unicorn.rb" />
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/procfile" />
-        <option value="$PROJECT_DIR$/config/initializers/mongo.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/todo.js" />
-        <option value="$PROJECT_DIR$/app/views/todo/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/initializers/create_pk.rb" />
+        <option value="$PROJECT_DIR$/app/views/todo/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/todo.js" />
         <option value="$PROJECT_DIR$/app/models/todo.rb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/mongo.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/todo_controller.rb" />
       </list>
     </option>
@@ -792,23 +792,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/mongo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -841,37 +827,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="5" selection-start="2709" selection-end="2709" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="3" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="0" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/todo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="32" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -883,23 +841,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todo/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="100" selection-start="777" selection-end="777" vertical-scroll-proportion="-15.0">
+        <state line="27" column="74" selection-start="857" selection-end="857" vertical-scroll-proportion="-16.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="72" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/todo.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+        <state line="7" column="35" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="78" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/mongo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="101" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/todo_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="71" selection-start="502" selection-end="502" vertical-scroll-proportion="0.39338654">
+        <state line="20" column="27" selection-start="362" selection-end="362" vertical-scroll-proportion="0.34207526">
           <folding />
         </state>
       </provider>

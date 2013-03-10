@@ -18,16 +18,16 @@
         <tbody>
         <tr ng-repeat="todo in todos">
           <td>{{$index}}</td>
-          <td>{{todo.primary_key}}</td>
+          <td>{{todo.id}}</td>
           <td>{{todo.text}}</td>
           <td>{{formatDate(todo.updated_at)}}</td>
           <td>
-            <button class="btn btn-small {{todoButton($index)}}" ng-click="todoDone(todo.primary_key, $index)">
+            <button class="btn btn-small btn-warning btn-done {{todoButton($index)}}" ng-click="todoDone(todo.id, $index)">
               {{todo.done}}
             </button>
           </td>
           <td>
-            <a href="" ng-click="deleteTodo(todo.primary_key, $index)">
+            <a href="" ng-click="deleteTodo(todo.id, $index)">
               <i class="icon-remove"></i>
             </a>
           </td>
